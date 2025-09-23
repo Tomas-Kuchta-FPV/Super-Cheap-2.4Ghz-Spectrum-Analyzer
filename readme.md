@@ -16,8 +16,10 @@ This project aims to create the most affordable spectrum analyzer for 2.4 GHz fr
 
 ## Software
 
-I'm taking a lot of inspiration from project [esp-erimentation](https://gitlab.com/ignne/esp-erimentation). Which is a projects that aims to poke at ESPs wireless driver and do thing that never been done on an ESP like [Talking to Space using cw by Andreas Spiess](https://www.youtube.com/watch?v=a5U1nnoJs6o).  
-I'm going to be taking inpirarion from their spectrum-analyzer.  
+I'm taking a lot of inspiration from project [esp-erimentation](https://gitlab.com/ignne/esp-erimentation) so thank to these guys.  
+Which is a projects that aims to poke at ESPs wireless driver and do thing that never been done on an ESP like [Talking to Space using cw by Andreas Spiess](https://www.youtube.com/watch?v=a5U1nnoJs6o).  
+I’ll be building on their spectrum analyzer as a source of inspiration.
+
 
 ## Motivation
 
@@ -30,3 +32,6 @@ Running the spectrum analyzer demo was a turning point: I managed to transmit AM
 
 Now, after nearly half a year of the ESPs being in a drawer, I’ve reached the stage of testing displays. I ordered 1.8", 2.4", and 3.5" screens to find the best balance of price and usability. In the end, I settled on the 2.8" display, but I plan to keep the code flexible so it can easily support other screen sizes.
 
+## Atribution
+
+- [esp-erimentation](https://gitlab.com/ignne/esp-erimentation)  
