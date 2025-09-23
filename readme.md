@@ -6,7 +6,7 @@ This project aims to create the most affordable spectrum analyzer for 2.4 GHz fr
 
 | Item                 | Price | Link                                                  |
 | -------------------- | ----- | ----------------------------------------------------- |
-| 2.8 Inch TFT Display | $6.44 | https://www.aliexpress.com/item/1005003797803015.html |
+| 2.8 Inch TFT Display | $5.59 | https://www.aliexpress.com/item/1005003797803015.html |
 | ESP32-C6             | $5.00 | https://www.aliexpress.com/item/1005006988459132.html |
 
 ### Alternatives
