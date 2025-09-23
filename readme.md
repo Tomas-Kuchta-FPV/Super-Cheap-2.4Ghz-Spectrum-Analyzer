@@ -19,14 +19,14 @@ This project aims to create the most affordable spectrum analyzer for 2.4 GHz fr
 I'm taking a lot of inspiration from project [esp-erimentation](https://gitlab.com/ignne/esp-erimentation). Which is a projects that aims to poke at ESPs wireless driver and do thing that never been done on an ESP like [Talking to Space using cw by Andreas Spiess](https://www.youtube.com/watch?v=a5U1nnoJs6o).  
 I'm going to be taking inpirarion from their spectrum-analyzer.  
 
-## My motivation
+## Motivation
 
-I like playing with technology. And 2.4Ghz Spectrum peeks my interest, beacause there is a lot of cool stuff like WiFi, Bluetooth, Zigbee, ELRS and many more...Oh and also microwaves :).  
+I’ve always enjoyed experimenting with technology, and the 2.4 GHz band is especially fascinating to me. It’s packed with interesting signals — Wi-Fi, Bluetooth, Zigbee, ELRS, and even microwaves.  
 
-When I saw Andreases video it peaked my interest as I like to hack stuff. But at the time I didn't have the reqired skill set.  
-But I did play with the examples thanks to Andreas for making kindof a guide on how to install.  
-The Spectrum Analyzer demo lit a spark in me and I got another ESP32C6 to try AM modulation and I saw it on the waterfall. It was amazing!  
-Then I tried a lot of stuff the main highliht being microwaves. Because these things emit a lot of RF I saw even ones from neibors.  
+When I first watched Andreas Spiess’ video on talking to space with CW, it really caught my attention. At that time, I didn’t have the skills to dive deep, but I still played around with the provided examples, thanks to Andreas’ installation guide.  
 
-After almos halve a year we are here. I have ordeder screens (1.8, 2.4, 3.5 inch) to test which will be the best in term of price/weight ratio and I picked none of them. Because I qite like the 2.8inch one. But I should make the code easy to port onto other screens.  
+While exploring the examples, the Spectrum Analyzer really stood out from the rest.  
+Running the spectrum analyzer demo was a turning point: I managed to transmit AM with an ESP32-C6 and actually saw it appear on the waterfall. That moment was incredible. From there, I kept experimenting, with the highlight being detecting microwave emissions — not just from my own, but even from neighbors’.  
+
+Now, after nearly half a year of the ESPs being in a drawer, I’ve reached the stage of testing displays. I ordered 1.8", 2.4", and 3.5" screens to find the best balance of price and usability. In the end, I settled on the 2.8" display, but I plan to keep the code flexible so it can easily support other screen sizes.
 
