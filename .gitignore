@@ -5,7 +5,7 @@ __pycache__/
 build/
 build_*_*/
 sdkconfig
-sdkconfig.old
+# sdkconfig.old leave this for diffing changes
 
 # idf-ci build run output
 build_summary_*.xml

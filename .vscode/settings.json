@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "cstdio": "c"
-    }
+    },
+    "cmake.sourceDirectory": "/home/tomas/GIT-Projects/public/Super-Cheap-2.4Ghz-Spectrum-Analyzer/src"
 }
