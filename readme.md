@@ -20,6 +20,29 @@ I'm taking a lot of inspiration from project [esp-erimentation](https://gitlab.c
 Which is a projects that aims to poke at ESPs wireless driver and do thing that never been done on an ESP like [Talking to Space using cw by Andreas Spiess](https://www.youtube.com/watch?v=a5U1nnoJs6o).  
 I’ll be building on their spectrum analyzer as a source of inspiration.
 
+### GamePlan
+
+1. Choose a graphics library.
+2. Make minimal XY plot.
+3. Implement SA esp-erimentation code.
+4. Make GUI for settings like freqency and span.
+
+- Benchmark the Update rate along the way. It can probably be calculated I don't have the skill to do that.  
+
+### How to compile
+
+#### esp-erimentation
+
+> You may fing more information in video from [Andreas Spiess (timestamped)](https://youtu.be/a5U1nnoJs6o?t=327)
+
+1. Download esp-idf version v5.2.1 - [official guide](https://docs.espressif.com/projects/esp-idf/en/release-v5.2/esp32/get-started/index.html#manual-installation)
+
+2. Apply the patch:
+    1. Download the file [esp32c6-rftest-hack.patch](https://gitlab.com/ignne/esp-erimentation/-/raw/main/additional-data/esp32c6-rftest-hack.patch?ref_type=heads&inline=false)
+    2. Move it to ~/esp/v5.2.1/esp-idf
+    3. Apply it with `git apply esp32c6-rftest-hack.patch` whie inside the esp-ifd directory.
+
+You should be able to compile now. :)
 
 ## Motivation
 
