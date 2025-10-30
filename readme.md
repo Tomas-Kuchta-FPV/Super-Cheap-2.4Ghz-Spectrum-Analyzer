@@ -2,8 +2,8 @@
 
 **Super Cheap 2.4 GHz Spectrum Analyzer**
 
-SpecLite 2.4 is an experimental project aiming to create the most affordable and accessible 2.4 GHz spectrum analyzer — built around the ESP32-C6 and a low-cost 2.8" TFT display.
-The goal is simple: make spectrum analysis on the 2.4 GHz ISM band easy, hackable, and cheap enough that anyone can build one.
+SpecLite 2.4 is an experimental project aiming to create the most affordable and accessible 2.4 GHz spectrum analyzer — built around the ESP32-C6 and a low-cost 2.8" TFT display.  
+The goal is simple: make spectrum analysis on the 2.4 GHz ISM band easy, hackable, and cheap enough that anyone can build one.  
 
 ## BOM
 
